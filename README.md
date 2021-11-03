@@ -1,5 +1,5 @@
-# api_yamdb
-api_yamdb - сервис отзывов о различных произведениях (фильмы, музыка и т.п.)
+# yamdb_final
+yamdb_final - сервис отзывов о различных произведениях (фильмы, музыка и т.п.)
 Для того, чтобы запустить проект необходимо установить и настроить Docker, как это сделать описано по ссылке: <br>https://timeweb.com/ru/community/articles/ustanovka-i-nastroyka-docker-1
 Далее клонируйте репозиторий командной: git clone <адрес репозитория>
 Необходимо создать файл .env в директории где находится setting.py и заполнить его данными:
@@ -31,10 +31,9 @@ api_yamdb - сервис отзывов о различных произведе
     <br>Django 2.2.6
     <br>Gunicorn 20.1.0
     <br>Nginx 1.19.3
-    <br>Docker
     <br>Docker 20.10.8
     <br>
     <br> Автор проекта:
     <br> Asp1n
     <br>
-    <br> ![workflow](https://github.com/asp1n/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?event=pull_request)
+    <br> ![workflow](https://github.com/asp1n/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
