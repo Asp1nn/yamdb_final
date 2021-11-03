@@ -1,11 +1,7 @@
 from django.db.models import Avg
 from django.shortcuts import get_object_or_404
 from django_filters.rest_framework import DjangoFilterBackend
-from rest_framework import filters
-from rest_framework import mixins
-from rest_framework import permissions
-from rest_framework import status
-from rest_framework import viewsets
+from rest_framework import filters, mixins, permissions, status, viewsets
 from rest_framework.decorators import action
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
 from rest_framework.response import Response
@@ -13,26 +9,16 @@ from rest_framework.views import APIView
 from rest_framework_simplejwt.tokens import AccessToken
 
 from .filters import TitlesFilter
-from .models import Category
-from .models import Genre
-from .models import Review
-from .models import Title
-from .models import User
-from .permissions import IsAdmin
-from .permissions import IsAdminOrReadOnly
-from .permissions import IsAuthorOrNotSimpleUserReadOnly
-from .serializers import CategorySerializer
-from .serializers import CommentSerializer
-from .serializers import GenreSerializer
-from .serializers import MyTokenObtainSerializer
-from .serializers import ReviewSerializer
-from .serializers import TitleSerializerOnePost
-from .serializers import TitleSerializerReadOnly
-from .serializers import UserAdminSerializer
-from .serializers import UserCreateSerializer
-from .utils import account_activation_token
-from .utils import send_confirmation_code
-from .utils import set_username
+from .models import Category, Genre, Review, Title, User
+from .permissions import (IsAdmin, IsAdminOrReadOnly,
+                          IsAuthorOrNotSimpleUserReadOnly)
+from .serializers import (CategorySerializer, CommentSerializer,
+                          GenreSerializer, MyTokenObtainSerializer,
+                          ReviewSerializer, TitleSerializerOnePost,
+                          TitleSerializerReadOnly, UserAdminSerializer,
+                          UserCreateSerializer)
+from .utils import (account_activation_token, send_confirmation_code,
+                    set_username)
 
 
 class CreateUserByEmail(APIView):

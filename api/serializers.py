@@ -1,12 +1,6 @@
-from rest_framework import exceptions
-from rest_framework import serializers
+from rest_framework import exceptions, serializers
 
-from .models import Category
-from .models import Comment
-from .models import Genre
-from .models import Review
-from .models import Title
-from .models import User
+from .models import Category, Comment, Genre, Review, Title, User
 
 
 class MyTokenObtainSerializer(serializers.Serializer):
