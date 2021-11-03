@@ -1,11 +1,8 @@
+import six
 from django.contrib.auth import get_user_model
 from django.contrib.auth.tokens import PasswordResetTokenGenerator
 from django.core.mail import send_mail
-import six
-
-
 from rest_framework.response import Response
-
 
 User = get_user_model()
 
