@@ -31,11 +31,10 @@ api_yamdb - сервис отзывов о различных произведе
     <br>Django 2.2.6
     <br>Gunicorn 20.1.0
     <br>Nginx 1.19.3
-<<<<<<< HEAD
     <br>Docker
-=======
     <br>Docker 20.10.8
->>>>>>> 2bc88c8 (Files)
     <br>
     <br> Автор проекта:
     <br> Asp1n
+    <br>
+    <br> ![example workflow](https://github.com/asp1n/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
