@@ -37,4 +37,4 @@ api_yamdb - сервис отзывов о различных произведе
     <br> Автор проекта:
     <br> Asp1n
     <br>
-    <br> (https://github.com/asp1n/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+    <br> ![workflow](https://github.com/asp1n/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
