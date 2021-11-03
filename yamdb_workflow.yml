@@ -64,7 +64,6 @@ jobs:
             cd api_yamdb
             touch .env
             # Наполнит файл переменными окружения из секретов GitHub
-            echo SECRET_KEY=${{ secrets.SECRET_KEY }} >> .env
             echo EMAIL_HOST_USER=${{ secrets.EMAIL_HOST_USER }} >> .env
             echo EMAIL_HOST_PASSWORD=${{ secrets.EMAIL_HOST_PASSWORD }} >> .env
             echo DB_ENGINE=${{ secrets.DB_ENGINE }} >> .env
