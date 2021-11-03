@@ -61,6 +61,7 @@ jobs:
             sudo docker-compose stop
             sudo docker-compose rm web
             # Создаст файл для переменных окружения
+            cd api_yamdb
             touch .env
             # Наполнит файл переменными окружения из секретов GitHub
             echo SECRET_KEY=${{ secrets.SECRET_KEY }} >> .env
