@@ -30,10 +30,9 @@ yamdb_final - сервис отзывов о различных произвед
     <br> ```
     docker-compose exec web python3 manage.py shell```
     Выполнить в открывшемся терминале:
-    ```
-    <br> >>> from django.contrib.contenttypes.models import ContentType
-    <br> >>> ContentType.objects.all().delete()
-    <br> >>> quit()```
+    <br> ```>>> from django.contrib.contenttypes.models import ContentType```
+    <br> ```>>> ContentType.objects.all().delete()```
+    <br> ```>>> quit()```
     <br> ```
     docker-compose exec web python manage.py loaddata fixtures.json```
     <br>
