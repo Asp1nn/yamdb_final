@@ -15,27 +15,27 @@ yamdb_final - сервис отзывов о различных произвед
     <br> 
 После клонирования репозитория с githab и создания файла .env:
     <br>1. Собрать образ 
-    <br> '''python
-    docker-compose up --build'''
+    <br> ```python
+    docker-compose up --build```
     <br>2. Применить миграции 
-    <br> '''python
-    docker-compose exec web python manage.py migrate --noinput'''
+    <br> ```python
+    docker-compose exec web python manage.py migrate --noinput```
     <br>3. Применить 
-    <br> '''python
-    docker-compose exec web python manage.py collectstatic --no-input'''
+    <br> ```python
+    docker-compose exec web python manage.py collectstatic --no-input```
     <br>4. Создать суперюзера 
-    <br> '''python
-    docker-compose exec web python manage.py createsuperuser'''
+    <br> ```python
+    docker-compose exec web python manage.py createsuperuser```
     <br>5. Заполнить первоночальными данными:
-    <br> '''python
-    docker-compose exec web python3 manage.py shell'''
+    <br> ```python
+    docker-compose exec web python3 manage.py shell```
     Выполнить в открывшемся терминале:
-    '''shell
+    ```shell
     <br>>>> from django.contrib.contenttypes.models import ContentType
     <br>>>> ContentType.objects.all().delete()
-    <br>>>> quit()'''
-    <br> '''python
-    docker-compose exec web python manage.py loaddata fixtures.json'''
+    <br>>>> quit()```
+    <br> ```python
+    docker-compose exec web python manage.py loaddata fixtures.json```
     <br>
     <br>Используемые технологии:
     <br>Python 3.9
