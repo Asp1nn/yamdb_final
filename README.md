@@ -3,7 +3,6 @@ yamdb_final - сервис отзывов о различных произвед
 Для того, чтобы запустить проект необходимо установить и настроить Docker, как это сделать описано по ссылке: <br>https://timeweb.com/ru/community/articles/ustanovka-i-nastroyka-docker-1
 Далее клонируйте репозиторий командной: git clone <адрес репозитория>
 Необходимо создать файл .env в директории где находится setting.py и заполнить его данными:
-    <br>
     <br>SECRET_KEY='p&l%385148kslhtyn^##a1)ilz@4zqj=rq&agdol^##zgl9(vs'
     <br>EMAIL_HOST_USER='yamdbproject@gmail.com'
     <br>EMAIL_HOST_PASSWORD='asd-1234'
