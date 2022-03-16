@@ -45,6 +45,5 @@ yamdb_final - сервис отзывов о различных произвед
     <br> Автор проекта:
     <br> Asp1n
     <br>
-    <br>Проект доступен по адресу: http://84.252.142.163/admin
     <br>
     <br> ![workflow](https://github.com/asp1n/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
